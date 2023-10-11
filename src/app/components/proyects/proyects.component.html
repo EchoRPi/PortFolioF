@@ -1,5 +1,16 @@
 <div class="container">
     <h2>Proyectos Profesionales</h2>
+    <!--<ul>
+        <li *ngFor="let project of projects" class="project">
+            <a [routerLink]="['/proyecto', project._id]">
+                <div class="image">
+                    <img src="{{url+'get-image/'+project.image}}" alt="{{project.name}}" *ngIf="project.image">
+                </div>
+                <h3>{{project.name}}</h3>
+                <p>{{project.description}}</p>
+            </a>
+        </li>
+    </ul>-->
     <div class="cards">
         <div *ngFor="let project of projects" class="card">
             <a [routerLink]="['/proyecto', project._id]">
