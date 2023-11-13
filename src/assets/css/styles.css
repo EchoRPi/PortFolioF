@@ -51,6 +51,7 @@ header ul{
     height: inherit;
     margin: 0px auto;
     margin-top: -2px;
+    inline-size: fit-content;
 }
 
 header ul li{
