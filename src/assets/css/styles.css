@@ -43,11 +43,11 @@ header{
     background: rgba(53, 103, 164, 0.8);
     position: fixed;
     text-transform: uppercase;
+    text-align: center;
 }
 
 header ul{
     display: block;
-    width: 41%;
     height: inherit;
     margin: 0px auto;
     margin-top: -2px;
